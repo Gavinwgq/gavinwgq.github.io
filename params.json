@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "Wangguoqiang.GitHub.io",
   "tagline": "王国强的个人博客",
   "body": "# wangguoqiang.github.io\r\n王国强的个人博客\r\n",
+=======
+  "name": "Gavinwgq.GitHub.io",
+  "tagline": "王国强的个人博客",
+  "body": "# gavinwgq.github.io\r\n---------------\r\n王国强的个人博客\r\n",
+>>>>>>> master
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
