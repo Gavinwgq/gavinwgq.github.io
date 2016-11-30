@@ -1,7 +1,7 @@
 # Site settings
 title: 王国强的个人网站
 author: Gavin
-email:
+email: henuboy@live.com
 description: > # this means to ignore newlines until "baseurl:"
   欢迎来到王国强的个人网站。
 
@@ -36,7 +36,7 @@ kramdown:
   hard_wrap: true # a newline in markdown text would be changed to <br>
 gems:
   - jemoji
-
+#port: 5000
 
 # Following is got in Github Help With Configuring Jekyll
 
