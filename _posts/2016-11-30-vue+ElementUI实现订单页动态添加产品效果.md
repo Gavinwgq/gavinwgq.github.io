@@ -1,3 +1,11 @@
+---
+layout: post
+title:  vue+ElementUI实现订单页动态添加产品效果
+date:   2016-11-30 15:27:16
+categories: jekyll update
+pid: 20161130-152716
+image: jekyll.jpg
+---
 使用vue2.0(*ElementUI基于vue2.0*)+ElementUI*(饿了么出品*)实现的在订单页面动态添加产品的效果，并自动计算总价。代码直接保存即可查看效果。
 效果图：![这里写图片描述](http://img.blog.csdn.net/20161129173020208)
 ![这里写图片描述](http://img.blog.csdn.net/20161129173039258)
