@@ -23,7 +23,7 @@
       attrName: "data-short-name",
 
       defaultSymbol: "%s",
-      domain: "http://api.duoshuo.com",
+      domain: "https://api.duoshuo.com",
       shortName: "",
 
       getArguments: function(args) {
