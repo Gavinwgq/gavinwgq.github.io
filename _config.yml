@@ -36,7 +36,7 @@ kramdown:
   hard_wrap: true # a newline in markdown text would be changed to <br>
 gems:
   - jemoji
-#port: 5000
+port: 5000
 
 # Following is got in Github Help With Configuring Jekyll
 
