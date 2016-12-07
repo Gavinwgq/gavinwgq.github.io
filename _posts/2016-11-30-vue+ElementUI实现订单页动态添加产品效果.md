@@ -3,8 +3,7 @@ layout: post
 title:  vue+ElementUI实现订单页动态添加产品效果
 date:   2016-11-30 15:27:16
 categories: vue Element-ui
-pid: 20161130-152716
-#
+tag: vue Element-ui
 ---
 >vue+ElementUI实现订单页动态添加产品效果
 
