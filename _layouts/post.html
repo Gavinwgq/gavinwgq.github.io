@@ -1,6 +1,6 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 <!-- Blog Post -->
 <!-- Title -->
 <div class="row">
@@ -13,7 +13,7 @@ layout: default
 		  {{ page.title }}
 		  <div class="post-date"><a href="https://github.com/{{ site.github }}/{{ site.github }}.github.io/edit/master/{{ page.path }}" target="_blank">纠错</a>&nbsp;&nbsp;
 			<span class="glyphicon glyphicon-time"></span>
-			{{ page.date | date_to_string }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+			{{ page.date | date_to_string:"%Y%m%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
 		  </div>
 		</h1>
  		</header>
@@ -37,7 +37,7 @@ layout: default
 	      {{page.previous.title}}
 	    </a>
 	  </span>
-	  {%endif%} 
+	  {%endif%}
 	  {%if page.next%}
 	  <span class="prev">
 	    下篇：
@@ -48,7 +48,7 @@ layout: default
 	  {%endif%}
 	</div>
 	</div>
-	
+
         {% for category in site.categories %}
 	<div post-cate="{{category | first}}">
           <ul class="posts">
@@ -74,6 +74,6 @@ layout: default
 
 <!-- Blog Comments -->
 <div class="media">
-  {% include comment.html %} 
-</div> 
+  {% include comment.html %}
+</div>
 </div>
