@@ -13,7 +13,7 @@ layout: default
 		  {{ page.title }}
 		  <div class="post-date"><a href="https://github.com/{{ site.github }}/{{ site.github }}.github.io/edit/master/{{ page.path }}" target="_blank">纠错</a>&nbsp;&nbsp;
 			<span class="glyphicon glyphicon-time"></span>
-			{{ page.date | date_to_string:"%Y%m%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+			{{ page.date | date:"%y%m%d %H:%M%S"}}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
 		  </div>
 		</h1>
  		</header>
