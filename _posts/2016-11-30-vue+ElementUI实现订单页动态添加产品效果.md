@@ -59,7 +59,7 @@ tag: vue Element-ui
         </div>
     </body>
 
-        <script src="http://cdn.bootcss.com/vue/2.1.2/vue.js"></script>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
         <!-- 引入element JS -->
         <script src="https://unpkg.com/element-ui/lib/index.js"></script>
         <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
